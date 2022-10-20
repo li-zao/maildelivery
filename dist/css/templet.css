@@ -1,0 +1,8 @@
+.chose_one_one{display:block;position:absolute;top:40%;left:11%;background:#F39B06;border:1px solid #D38200;width: 100px;height: 30px;line-height: 30px;}
+.choseone{position: relative;width: 130px;float: left;margin-left:45px;height: 186px;}
+dl{position: relative;border:1px solid #ccc;}
+.chose{position:absolute;top:40%;left:11%;background:#46BCF2;border:1px solid #46BCF2;display:none;width: 100px;height: 30px;line-height: 30px;}
+.chose a{margin-left: 5px;}
+.chose_one{border:3px solid #f39b06;}
+.chose_two{border:1px solid #ccc;}
+.choses{display: block;}

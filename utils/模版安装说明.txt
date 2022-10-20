@@ -1,0 +1,10 @@
+default_templates.zip
+1.解压在/var/www/maildeliveryservice/
+2.执行InsertTpl.php时  2个参数  一个是文件路径，一个的设定外网访问域名
+例如/usr/bin/php  /var/www/maildeliveryservice/read  http://192.168.10.114
+
+tpl_img.zip
+1.解压到/home/maildelivery/
+2.设置权限 777 -R
+3. 设置软联
+ln -s /home/maildelivery/tpl_img /var/www/maildeliveryservice/uploads/tpl_img

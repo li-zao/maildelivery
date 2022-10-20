@@ -1,0 +1,11 @@
+MAILTO=""
+05 * * * * /usr/bin/php /var/www/maildelivery/system_clock.php
+01 0 * * * /usr/bin/php /var/www/maildelivery/ExecutionPlan.php
+01 * * * * /usr/bin/php /var/www/maildelivery/SmtpLogStat.php
+01 * * * * /usr/bin/php /var/www/maildelivery/TaskLogStat.php
+0-59/1 * * * * /usr/bin/php /var/www/maildelivery/cpu_statistics_updater.php
+0-59/15 * * * * /usr/bin/php /var/www/maildelivery/alert.php
+#45 1 * * * /usr/bin/php /var/www/maildelivery/Del_log.php
+#45 1 * * * /usr/bin/php /var/www/maildelivery/Del_temp.php
+0-59/5 * * * * /usr/bin/php /var/www/maildelivery/Report.php
+01 4 * * * /usr/bin/php /var/www/maildelivery/cleanData.php
