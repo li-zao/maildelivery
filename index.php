@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set ( 'Asia/Shanghai' );
-//error_reporting(0);
+// error_reporting(0);
 set_include_path ( '.' . PATH_SEPARATOR . './library' . PATH_SEPARATOR . './app/models/' . PATH_SEPARATOR . get_include_path ());
 //Set Zend Framework  load class automatically
 require_once 'Zend/Loader/Autoloader.php';
